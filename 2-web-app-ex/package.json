@@ -1,0 +1,17 @@
+{
+  "name": "mean-web-app",
+  "version": "1.0.0",
+  "description": "An example of a MEAN web application.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "m-amaya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "morgan": "^1.8.1"
+  }
+}

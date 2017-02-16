@@ -1,0 +1,21 @@
+<div class="jumbotron">
+    <h1>My web application.</h1>
+    <p>This is an example of a web application.
+        It includes serving a <code>public</code> folder that contains our static resources.
+        It also includes dynamically created templates that are being rendered server-side.
+    </p>
+    <p class="btn btn-primary btn-sm btn-create">Create Message</p>
+    <div class="message-wrapper hide">
+        <form class="message-form">
+            <div class="form-group">
+                <label for="message">Enter Message</label>
+                <input type="text" name="message" id="message" />
+                <div class="btn-wrapper">
+                    <button type="submit" class="btn btn-md btn-success pull-right">Send</button>
+                </div>
+            </div>
+        </form>
+
+        <div class="alert alert-success alert-message hide"></div>
+    </div>
+</div>
