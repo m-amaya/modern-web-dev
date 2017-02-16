@@ -1,0 +1,28 @@
+.container {
+    margin-top: 20px;
+}
+
+footer {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgb(246, 246, 246);
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: #666;
+    border: 1px solid rgb(216, 216, 216);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+}
+
+.btn {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.alert {
+    height: 100%;
+}
+
+.hide {
+    height: 0;
+}
